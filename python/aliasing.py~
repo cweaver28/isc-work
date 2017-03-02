@@ -1,0 +1,11 @@
+a = [0, 1, 2]
+b = a
+print a,b
+
+b[0] = "hello"
+
+print a,b
+
+a.append(3)
+
+print a,b
